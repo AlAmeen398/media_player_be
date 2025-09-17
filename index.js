@@ -18,7 +18,7 @@ mediaPlayerServer.use(router)
 
 const PORT = 5000;
 
-//running the mediaPlayerServer server
+
 
 mediaPlayerServer.listen(PORT,()=>{
     console.log("media player server is running in PORT:", PORT);
